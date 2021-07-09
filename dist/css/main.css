@@ -85,6 +85,11 @@
   margin-left: 5px;
   margin-right: 5px;
   z-index: 3;
+  opacity: 1;
+}
+
+.body .body_paino .paino__black .black__keys.active {
+  opacity: 0.6;
 }
 
 .body .body_paino .paino__white {
@@ -118,6 +123,10 @@
       -ms-flex-align: center;
           align-items: center;
   color: seashell;
+}
+
+.body .body_paino .paino__white .white__keys.active {
+  background-color: gainsboro;
 }
 
 .body .body_paino .black__cover {
