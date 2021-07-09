@@ -128,6 +128,8 @@
       -ms-flex-align: center;
           align-items: center;
   color: seashell;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 .body .body_paino .paino__white .white__keys:hover {

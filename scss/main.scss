@@ -84,6 +84,7 @@
                 z-index: 2;
                 @include flexCenter(column);
                 color:seashell;
+                transition-duration: 500ms;
                 &:hover{
                     background-color: $primary-color;
                 }
