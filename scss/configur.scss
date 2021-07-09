@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+$primary-color: #fec325;
+// $primary-color: #74648343;
+
+@mixin marginZero{
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin  flexCenter($flexDirection){
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
