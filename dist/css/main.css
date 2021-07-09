@@ -86,14 +86,15 @@
   margin-right: 5px;
   z-index: 3;
   opacity: 1;
-}
-
-.body .body_paino .paino__black .black__keys:hover {
-  background-color: #fec325;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 .body .body_paino .paino__black .black__keys.active {
-  opacity: 0.9;
+  opacity: 0.8;
+  margin-top: 5px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .body .body_paino .paino__white {
