@@ -88,8 +88,12 @@
   opacity: 1;
 }
 
+.body .body_paino .paino__black .black__keys:hover {
+  background-color: #fec325;
+}
+
 .body .body_paino .paino__black .black__keys.active {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .body .body_paino .paino__white {
@@ -123,6 +127,10 @@
       -ms-flex-align: center;
           align-items: center;
   color: seashell;
+}
+
+.body .body_paino .paino__white .white__keys:hover {
+  background-color: #fec325;
 }
 
 .body .body_paino .paino__white .white__keys.active {
